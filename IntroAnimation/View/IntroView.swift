@@ -20,7 +20,7 @@ struct IntroView: View {
                     .transition(.move(edge: .trailing))
             }else{
                 ZStack{
-                    Color("BG")
+                    Color("white")
                         .ignoresSafeArea()
                     
                     IntroScreen()
